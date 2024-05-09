@@ -34,7 +34,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: cmupro7/frontend:57 
+          image: cmupro7/frontend:20 
           ports:
           - containerPort: 8080
           readinessProbe:
