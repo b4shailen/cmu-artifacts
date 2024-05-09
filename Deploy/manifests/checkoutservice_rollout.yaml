@@ -32,7 +32,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: cmupro7/checkoutservice:57
+          image: cmupro7/checkoutservice:15
           ports:
           - containerPort: 5050
           readinessProbe:
