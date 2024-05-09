@@ -32,7 +32,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.9.0
+          image: cmupro7/checkoutservice:57
           ports:
           - containerPort: 5050
           readinessProbe:
