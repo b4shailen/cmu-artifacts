@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/emailservice:68 
+        image: cmupro7/emailservice:18 
         ports:
         - containerPort: 8080
         env:
