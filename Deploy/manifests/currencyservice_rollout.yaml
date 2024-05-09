@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/currencyservice:57 
+        image: cmupro7/currencyservice:16 
         ports:
         - name: grpc
           containerPort: 7000
