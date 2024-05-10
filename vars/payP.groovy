@@ -1,9 +1,6 @@
 def pay(x) {
-    stage('Hello ${x}!') {
-        steps {
-            echo "Step: Executing paymentservicePipeline() method..."
-        }
-    }
+    echo "Hello ${x}!"
+        
     
  // Add other stages as needed
 }
