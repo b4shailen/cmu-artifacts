@@ -5,11 +5,12 @@ def paymentservice() {
         }
     }
     
-    stage('Deploy Paymentservice') {
+   /* stage('Deploy Paymentservice') {
         steps {
             echo "deployment Paymentservice steps"
         }
     }
+    */
     // Add other stages as needed
 }
 
