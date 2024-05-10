@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/adservice:46
+        image: cmupro7/adservice:47
         ports:
         - containerPort: 9555
         env:
