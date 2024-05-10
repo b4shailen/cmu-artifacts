@@ -58,7 +58,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/loadgenerator:56 
+        image: cmupro7/loadgenerator:22 
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
