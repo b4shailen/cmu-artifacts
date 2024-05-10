@@ -1,5 +1,5 @@
-def pay() {
-    stage('Hello Paymentservice!') {
+def pay(x) {
+    stage('Hello ${x}!') {
         steps {
             echo "Step: Executing paymentservicePipeline() method..."
         }
