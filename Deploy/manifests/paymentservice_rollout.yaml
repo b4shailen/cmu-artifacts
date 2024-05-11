@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/paymentservice:56 
+        image: cmupro7/paymentservice:35 
         ports:
         - containerPort: 50051
         env:
