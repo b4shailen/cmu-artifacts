@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/recommendationservice:56 
+        image: cmupro7/recommendationservice:39 
         ports:
         - containerPort: 8080
         readinessProbe:
