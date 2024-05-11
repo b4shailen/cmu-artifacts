@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/productcatalogservice:68 
+        image: cmupro7/productcatalogservice:35 
         ports:
         - containerPort: 3550
         env:
