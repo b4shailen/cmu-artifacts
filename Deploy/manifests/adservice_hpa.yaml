@@ -3,7 +3,7 @@ kind: HorizontalPodAutoscaler
 metadata:
   name: adservicehpa
 spec:
-  maxReplicas: 4
+  maxReplicas: 6
   minReplicas: 2
   scaleTargetRef:
     apiVersion: argoproj.io/v1alpha1
