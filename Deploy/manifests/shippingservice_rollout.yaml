@@ -32,7 +32,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cmupro7/shippingservice:56 
+        image: cmupro7/shippingservice:39 
         ports:
         - containerPort: 50051
         env:
