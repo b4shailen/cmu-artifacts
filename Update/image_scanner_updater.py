@@ -28,7 +28,6 @@ command = "git -C " + manifestlocation + " pull"
 stream = os.popen(command)
 output = stream.read()
 output = output.split('\n')
-print(output)
 for line in range(len(output)):
     if re.match(r' Deploy\/manifests\/\w+_rollout.yaml.*', output[line], re.M | re.I):
         servcha = re.search(r' Deploy\/manifests\/(\w+)_rollout.yaml.*', output[line], re.M | re.I)
@@ -36,10 +35,10 @@ for line in range(len(output)):
             microserv.append(servcha.group(1))
 
 if len(microserv) != 0:
-    print('Following services have new tags and will be update.\n')
+    print('Following services have new tags and will be updated:')
     for serv1 in range(len(microserv)):
         print('%s', microserv[serv1])
-
+    print('\n')
     for serv in range(len(microserv)):
         summary = []
         print('##########################################################')
